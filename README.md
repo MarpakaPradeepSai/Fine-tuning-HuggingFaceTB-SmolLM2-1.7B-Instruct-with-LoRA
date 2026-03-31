@@ -31,9 +31,10 @@ The primary focus is the **methodology of fine-tuning**, covering everything fro
     -   [Step 3: Model and Tokenizer Loading](#step-3-model-and-tokenizer-loading)
     -   [Step 4: Configuring LoRA and the Trainer](#step-4-configuring-lora-and-the-trainer)
     -   [Step 5: Training and Saving the Model](#step-5-training-and-saving-the-model)
-4.  [**How to Run This Project**](#4-how-to-run-this-project)
-5.  [**Results: In-Domain vs. Out-of-Domain Performance**](#5-results-in-domain-vs-out-of-domain-performance)
-6.  [**License**](#6-license)
+4.  [**Project Structure**](#4-project-structure)
+5.  [**How to Run This Project**](#5-how-to-run-this-project)
+6.  [**Results: In-Domain vs. Out-of-Domain Performance**](#6-results-in-domain-vs-out-of-domain-performance)
+7.  [**License**](#7-license)
 
 <br>
 
@@ -204,7 +205,28 @@ The saved `output_path` will contain only the trained adapter weights (a few meg
 
 ---
 
-## 4. How to Run This Project
+## 4. Project Structure
+
+```bash
+Fine-tuning-HuggingFaceTB-SmolLM2-1.7B-Instruct-with-LoRA/
+│-- Data/
+│   │-- Bitext-events-ticketing-llm-chatbot-training-dataset.csv
+│   │-- extra-large-out-of-domain.csv
+│   └-- README.md
+│-- LICENSE
+│-- Model/
+│   └-- README.md
+│-- Notebook/
+│   │-- Fine-tuning-HuggingFaceTB-SmolLM2-1.7B-Instruct-with-LoRA.ipynb
+│   └-- README.md
+└-- README.md
+```
+
+<br>
+
+---
+
+## 5. How to Run This Project
 
 1.  **Clone the repository:**
     ```bash
@@ -225,13 +247,13 @@ The saved `output_path` will contain only the trained adapter weights (a few meg
     ```
 
 4.  **Run the Notebook:**
-    Open the `Fine-Tuning-SmolLM.ipynb` notebook in a Jupyter or Colab environment and execute the cells sequentially.
+    Open the `Notebook/Fine-tuning-HuggingFaceTB-SmolLM2-1.7B-Instruct-with-LoRA.ipynb` notebook in a Jupyter or Colab environment and execute the cells sequentially.
 
 <br>
 
 ---
 
-## 5. Results: In-Domain vs. Out-of-Domain Performance
+## 6. Results: In-Domain vs. Out-of-Domain Performance
 
 After fine-tuning, the model is significantly better at handling domain-specific queries while politely deflecting out-of-domain requests.
 
@@ -258,7 +280,7 @@ This demonstrates the model has successfully specialized its function, a direct 
 
 ---
 
-## 6. License
+## 7. License
 
 This project is licensed under the [MIT License](LICENSE).
 
