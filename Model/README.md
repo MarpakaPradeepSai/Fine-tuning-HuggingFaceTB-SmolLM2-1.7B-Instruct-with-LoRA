@@ -1,5 +1,8 @@
 ## 🤖 Model Download
 
-You can access and download the fine-tuned model from Hugging Face using the badge below:
+This repository provides **LoRA adapters**, not the full base model.  
+You will need the original SmolLM2-1.7B-Instruct model to use these weights.
 
-[![Download Model](https://img.shields.io/badge/HuggingFace-Download%20Model-yellow?logo=huggingface)](https://huggingface.co/IamPradeep/HuggingFaceTB-SmolLM2-1.7B-Instruct-LoRA-Fine-tuned)
+Access and download the adapters from Hugging Face below:
+
+[![Download LoRA Adapters](https://img.shields.io/badge/HuggingFace-Download%20Adapters-yellow?logo=huggingface)](https://huggingface.co/IamPradeep/HuggingFaceTB-SmolLM2-1.7B-Instruct-LoRA-Fine-tuned)
