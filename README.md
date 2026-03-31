@@ -262,4 +262,4 @@ This demonstrates the model has successfully specialized its function, a direct 
 
 This project is licensed under the [MIT License](LICENSE).
 
-Note: This project uses the SmolLM2-1.7B-Instruct model, which is licensed under the [Apache 2.0 License](LICENSE). Any use of the model and its derivatives must comply with its original license.
+**Note**: This project uses the SmolLM2-1.7B-Instruct model, which is licensed under the [Apache 2.0 License](LICENSE). Any use of the model and its derivatives must comply with its original license.
