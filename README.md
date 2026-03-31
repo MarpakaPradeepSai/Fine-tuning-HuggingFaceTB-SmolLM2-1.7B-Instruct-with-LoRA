@@ -47,7 +47,7 @@ Fine-tuning is the process of taking a pre-trained model—one that has already 
 
 <div align="center">
     
-<img src="https://github.com/MarpakaPradeepSai/Fine-tuning-HuggingFaceTB-SmolLM2-1.7B-Instruct-with-LoRA/blob/main/Data/Images%20&%20GIF/fine-tuning-banner.jpg?raw=true" width="700"/>
+<img src="https://github.com/MarpakaPradeepSai/Fine-tuning-HuggingFaceTB-SmolLM2-1.7B-Instruct-with-LoRA/blob/main/Data/Images%20&%20GIF/fine-tuning-banner.jpg?raw=true" width="550"/>
 
 </div>
 
