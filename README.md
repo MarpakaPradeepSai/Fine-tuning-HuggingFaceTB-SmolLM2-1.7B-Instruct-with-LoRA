@@ -257,7 +257,7 @@ Fine-tuning-HuggingFaceTB-SmolLM2-1.7B-Instruct-with-LoRA/
 
 After fine-tuning, the model is significantly better at handling domain-specific queries while politely deflecting out-of-domain requests.
 
-#### **✅ In-Domain Query**
+### **✅ In-Domain Query**
 
 > **User:** "How can I cancel my ticket for the upcoming cricket event in India?"
 
@@ -268,7 +268,7 @@ After fine-tuning, the model is significantly better at handling domain-specific
 > 4. Select the <b>Cancel Ticket</b> option.
 > 5. Complete the process by following the on-screen instructions for cancellation."
 
-#### **❌ Out-of-Domain Query**
+### **❌ Out-of-Domain Query**
 
 > **User:** "Explain the working of Large Language Models."
 
