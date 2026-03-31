@@ -15,12 +15,6 @@ The primary focus is the **methodology of fine-tuning**, covering everything fro
 
 <br>
 
-<div align="center">
-    
-<img src="https://github.com/MarpakaPradeepSai/Fine-tuning-HuggingFaceTB-SmolLM2-1.7B-Instruct-with-LoRA/blob/main/Data/Images%20&%20GIF/fine-tuning-banner.jpg?raw=true" width="700"/>
-
-</div>
-
 ---
 
 ## 📜 Table of Contents
@@ -50,6 +44,12 @@ The primary focus is the **methodology of fine-tuning**, covering everything fro
 ### What is Fine-Tuning?
 
 Fine-tuning is the process of taking a pre-trained model—one that has already been trained on a vast amount of general data—and training it further on a smaller, task-specific dataset. This adapts the model's general knowledge to excel at a particular task, such as understanding medical terminology, writing in a specific legal style, or, in this case, handling event ticketing queries.
+
+<div align="center">
+    
+<img src="https://github.com/MarpakaPradeepSai/Fine-tuning-HuggingFaceTB-SmolLM2-1.7B-Instruct-with-LoRA/blob/main/Data/Images%20&%20GIF/fine-tuning-banner.jpg?raw=true" width="700"/>
+
+</div>
 
 ### Why Fine-Tune a Language Model?
 
