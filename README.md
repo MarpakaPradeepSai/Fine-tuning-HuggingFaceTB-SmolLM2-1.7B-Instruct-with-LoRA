@@ -17,7 +17,7 @@ The primary focus is the **methodology of fine-tuning**, covering everything fro
 
 <div align="center">
     
-<img src="https://www.mygreatlearning.com/blog/wp-content/uploads/2025/04/fine-tuning-banner.jpg" width="700"/>
+<img src="https://github.com/MarpakaPradeepSai/Fine-tuning-HuggingFaceTB-SmolLM2-1.7B-Instruct-with-LoRA/blob/main/Data/Images%20&%20GIF/fine-tuning-banner.jpg?raw=true" width="700"/>
 
 </div>
 
@@ -82,7 +82,7 @@ Examples include: **LoRA**, Adapters, Prefix Tuning, and BitFit.
 This project uses **LoRA**, one of the most popular PEFT techniques. LoRA works on the hypothesis that the change in weights during fine-tuning has a "low intrinsic rank." Therefore, instead of learning a large weight update matrix `ΔW`, LoRA learns two smaller, low-rank matrices `A` and `B` whose product approximates `ΔW`.
 
 <div align="center">
-  <img src="https://www.dailydoseofds.com/content/images/size/w1000/2024/02/image-283.png" width="600"/>
+  <img src="https://github.com/MarpakaPradeepSai/Fine-tuning-HuggingFaceTB-SmolLM2-1.7B-Instruct-with-LoRA/blob/main/Data/Images%20&%20GIF/weights.png?raw=true" width="600"/>
 </div>
 
 **How it Works Mathematically:**
