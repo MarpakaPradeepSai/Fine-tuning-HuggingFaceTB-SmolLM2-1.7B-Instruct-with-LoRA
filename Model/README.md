@@ -1,4 +1,4 @@
-## 🤖 Model Download
+> ## 🤖 Model Download
 
 This repository provides **LoRA adapters**, not the full base model.  
 You will need the original SmolLM2-1.7B-Instruct model to use these weights.
