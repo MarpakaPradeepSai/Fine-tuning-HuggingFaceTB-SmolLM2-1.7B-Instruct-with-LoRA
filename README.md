@@ -268,6 +268,8 @@ After fine-tuning, the model is significantly better at handling domain-specific
 > 4. Select the <b>Cancel Ticket</b> option.
 > 5. Complete the process by following the on-screen instructions for cancellation."
 
+<br>
+
 ### **❌ Out-of-Domain Query**
 
 > **User:** "Explain the working of Large Language Models."
